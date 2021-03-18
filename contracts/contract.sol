@@ -454,6 +454,14 @@ contract HOGE is Context, IERC20, Ownable {
         emit Transfer(address(0), _msgSender(), _tTotal);
     }
 
+    // function debug_tTotal() public view returns (uint256) {
+    //     return _tTotal;
+    // }
+
+    // function debug_rTotal() public view returns (uint256) {
+    //     return _rTotal;
+    // }
+
     function name() public view returns (string memory) {
         return _name;
     }
